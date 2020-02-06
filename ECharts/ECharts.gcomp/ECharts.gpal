@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="A357A5442457FFF37D78F6AF26F286D18D9AC630E857BD498925C9A204286D7E7CDE052D5E6902A0FA102FE4F1775D06A367CB4AD5610FD78252A1FEEEBCAB6A" Timestamp="1D5DD3E942BA6C1" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.2316" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.4" Version="8.1.0.4" />
+		<ApplicationVersionInfo Build="8.1.0.2316" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<PaletteDefinition BindingKeywords="VireoBrowserTarget" PaletteBaseName="Diagram" xmlns="http://www.ni.com/PlatformFramework">
+		<PaletteContentCategory Display="Add-ons" Id="f8bb777c494b4bc59c6253e847fe6441" ShortName="Add-ons" UniqueId="NI.LabVIEW.VI:PaletteCategory.Addons" Weight="35">
+			<IconPanel Height="[float]40" Id="94db1816522412ea9a07085af9d89f6" Left="[float]0" Top="[float]0" Width="[float]40">
+				<IconTemplate Id="7eb46e5c1b8d4854a7582f1edb2e3522" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+				<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 39,5 H 1 V 39 H 39 V 5 M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="18fc0a4679b94fddb664da1312f9a22f" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+				<Path Data="[PathGeometry]M 39,39 H 1 V 5 H 39 V 39 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#fff3f4f5" Height="[float]40" Id="90f9829058ce4a2cb79613ceb85ba83a" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+				<Path Data="[PathGeometry]M 28,34 C 28.2929993,34 28.5690002,33.9329987 28.8199997,33.8199997 C 28.507,34.5149994 27.8120003,35 27,35 L 9,35 C 7.89499998,35 7,34.1049995 7,33 L 7,15 C 7,14.1890001 7.48500013,13.493 8.18000031,13.1800003 C 8.06700039,13.4309998 8,13.7069998 8,14 L 8,32 C 8,33.1049995 8.89500046,34 10,34 L 28,34 Z M 30,32 L 29,32 L 12,32 C 10.8950005,32 10,31.1049995 10,30 L 10,13 L 10,12 C 10,11.7069998 10.0670004,11.4309998 10.1800003,11.1800003 C 9.73600006,11.3800001 9.38000011,11.7360001 9.18000031,12.1800003 C 9.06700039,12.4309998 9,12.7069998 9,13 L 9,31 C 9,32.1049995 9.89500046,33 11,33 L 29,33 C 29.2929993,33 29.5690002,32.9329987 29.8199997,32.8199997 C 30.2639999,32.6199989 30.6200008,32.2639999 30.8199997,31.8199997 C 30.5690002,31.9330006 30.2929993,32 30,32 Z M 33,29 L 33,11 C 33,9.89500046 32.1049995,9 31,9 L 13,9 C 11.8950005,9 11,9.89500046 11,11 L 11,29 C 11,30.1049995 11.8950005,31 13,31 L 31,31 C 32.1049995,31 33,30.1049995 33,29 Z M 28,21 L 23,21 L 23,26 L 21,26 L 21,21 L 16,21 L 16,19 L 21,19 L 21,14 L 23,14 L 23,19 L 28,19 L 28,21 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="e104bd808b054e7bbaf4ae551a8a19de" Left="[float]0" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+			<PaletteContentCategory Display="ECharts" Id="5f2733ad0c60432383719fa9072e3a12" ShortName="ECharts" UniqueId="fcd4afa6-1964-456d-bf13-1394d004b889">
+				<IconPanel Height="[float]40" Id="1d6dcb3459d74bab99dd5e09a13030eb" Left="[float]0" Top="[float]0" Width="[float]40">
+					<IconTemplate Id="d3a632e808e847be89ff1a1b94ae379f" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+					<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="12eb3ea0ed854c61b2b44d37ec8089f7" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+				</IconPanel>
+				<PaletteContentCategory Display="Options" Id="ecf7a50b14ac49b18e5f77d28b24b5d2" ShortName="Core" UniqueId="4cb07db3-865f-4844-bf39-2b17b68d5cc9">
+					<IconPanel Height="[float]40" Id="2a0cbd73cf924b478ba0008fedecf230" Left="[float]0" Top="[float]0" Width="[float]40">
+						<IconTemplate Id="5c786c74e0194e099da7d3fc1e07be5b" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+						<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="bb4e66ffd1dc4a958cfc13b8cd2700e7" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+					</IconPanel>
+					<PaletteContentCategory Display="echart options" Id="da544b386c274daf898fb16a2251c2dc" ShortName="echart options" UniqueId="39d1533c-3c9d-4c40-b7eb-2b7239dde6b1">
+						<PaletteContentLeaf ClipboardDataFormat="Constant" Display="echart options Constant" Id="7c5582829d404683a00d33d91bd39457" MethodTarget="ECharts::Core::echart options.gtype" UniqueId="ECharts:Core:echart options.gtype.Constant">
+							<IconPanel Height="[float]40" Id="2b5f09c5e4b44261801f152cd61effa1" Left="[float]0" Top="[float]0" Width="[float]40">
+								<IconTemplate Id="f64ed893798642af988a96320865a23e" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+								<Path Data="[PathGeometry]M 0,16 C 0,14 2,12 4,12 L 30.5470009,12 L 39.5470009,16.5 L 31,20.7399998 C 31,20.7399998 31,21.0109997 31,23 C 31,24.9899998 29.0470009,27 27.0470009,27 C 18.3799992,27 6,27 4,27 C 2,27 0,25 0,23 L 0,16 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="b9e009f2b6094295becaaf479d8738d5" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 3.95300007,13.0159998 C 5.03100014,13.0159998 25.8120003,13.0159998 30.25,13.0159998 L 37.2970009,16.5 L 30,20 L 30,23.0160007 C 30,24.5160007 28.5470009,26 27.0470009,26 C 18.3799992,26 5.5,26 4,26 C 2.5,26 1,24.5 1,23 L 1,16 C 1,14.5 2.45300007,13.0159998 3.95300007,13.0159998 Z" Fill="[SMSolidColorBrush]#fff2f2f2" Height="[float]40" Id="52b20e1bd4be40c998f71a07584c7138" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 4,14 L 6,14 C 6,14 5.95300007,25 6,25 L 4,25 C 3,25 2,24 2,23 L 2,16 C 2,15 3,14 4,14 Z M 31.5470009,16.5 L 30.0470009,19 L 35.0470009,16.5 L 30.0470009,14 L 31.5470009,16.5 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="68e4ce6839134aa788f9689925563763" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 30.3120003,16.5 L 29,18.75 L 29,23 C 29,24 28,25 27,25 L 7,25 L 7,14 L 28.9370003,14 L 30.3120003,16.5 Z" Fill="[SMSolidColorBrush]#ffe5e5e5" Height="[float]40" Id="3cab016e8d2c4a38bba433063b60dcad" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+							</IconPanel>
+						</PaletteContentLeaf>
+						<PaletteContentLeaf ClipboardDataFormat="Terminal" Display="echart options Terminal" Id="9c8b14cf4fa348399187d7fa01254d94" MethodTarget="ECharts::Core::echart options.gtype" UniqueId="ECharts:Core:echart options.gtype.Terminal">
+							<IconPanel Height="[float]40" Id="3bf9e6f88eba4491aacd6ce9818e6b3c" Left="[float]0" Top="[float]0" Width="[float]40">
+								<IconTemplate Id="559d3bb49c8e4867a1d0259f59f5eabe" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+								<Path Data="[PathGeometry]M 0,16 C 0,14 2,12 4,12 L 30.5,12 L 39.5,16.5 L 31,20.75 C 31,20.75 31,21.0209999 31,23.0100002 C 31,25 29,27 27,27 C 18.3330002,27 6,27 4,27 C 2,27 0,25 0,23 L 0,16 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="9007190816ee4efea07983e70c041d5c" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 4,13 C 5.07800007,13 25.8120003,13 30.25,13 L 37.2970009,16.4839993 L 30,20 L 30,23 C 30,24.5 28.5470009,25.9839993 27.0470009,25.9839993 C 18.3799992,25.9839993 5.54699993,25.9839993 4.04699993,25.9839993 C 2.54699993,25.9839993 1.04700005,24.4839993 1.04700005,22.9839993 L 1.04700005,15.9840002 C 1.04700005,14.4840002 2.5,13 4,13 Z" Fill="[SMSolidColorBrush]#fff2f2f2" Height="[float]40" Id="9b401145642744148f109154b29512aa" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								<Path Data="[PathGeometry]M 4,14 L 18.0839996,14 L 28.9370003,14 L 30.3120003,16.5 L 29,18.75 L 29,23 C 29,24 28,25 27,25 L 4,25 C 3,25 2,24 2,23 L 2,16 C 2,15 3,14 4,14 Z M 30,14 L 35,16.5 L 30,19 L 31.5,16.5 L 30,14 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="13219b0906f245e68084428c32967468" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+							</IconPanel>
+						</PaletteContentLeaf>
+						<IconPanel Height="[float]40" Id="cc86d7392d92409a8d14981e4b755681" Left="[float]0" Top="[float]0" Width="[float]40">
+							<IconTemplate Id="7ef37e07416945e989634f0dcbb2341f" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+							<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="50612083052346d3ade34fe66f9dff5c" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+					</PaletteContentCategory>
+					<PaletteContentCategory Display="Gauge Options" Id="b66099c40eee4ebfab8125e2ce9d24b7" ShortName="Gauge Options" UniqueId="1d4fc7a6-7ad8-4bbb-841f-2bb244ea6412">
+						<IconPanel Height="[float]40" Id="2dd4c5205034d72adbc616a6ff4ba44" Left="[float]0" Top="[float]0" Width="[float]40">
+							<IconTemplate Id="ced0e7e16f44a1e910c7af74104790e" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+							<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="de05c2149a8b4ce6abb964fb9b32bd70" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+						<PaletteContentLeaf Id="575af40bac224092bdad6e4893b9e904" MethodTarget="ECharts::Gauge Options::Append Gauge Series Options.gvi" />
+					</PaletteContentCategory>
+					<PaletteContentCategory Display="Pie Options" Id="67f23e2335ee4f4ba693b6f1c0298a1f" ShortName="Pie Options" UniqueId="dbe12c7d-00e1-454b-afd4-883b8f479378">
+						<IconPanel Height="[float]40" Id="577f6c890ff94c64bbfe86b0170ecd2e" Left="[float]0" Top="[float]0" Width="[float]40">
+							<IconTemplate Id="64a4d3493e0f42b68433e5f36ff69c38" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+							<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="7cdd4800992240f4a7c9a1b7c07915d1" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+						<PaletteContentLeaf Id="88f576c6ce60499cb433464d4b5714f6" MethodTarget="ECharts::Pie Options::Append Pie Series Options.gvi" />
+					</PaletteContentCategory>
+					<PaletteContentCategory Display="Shared Options" Id="6dfd5c5696f4431ba155cc8bf1aaed78" ShortName="Shared Options" UniqueId="b8d15d7e-c835-4b83-a19e-1812774d459a">
+						<IconPanel Height="[float]40" Id="5f083d83af2c446fa0933b4e172e9eec" Left="[float]0" Top="[float]0" Width="[float]40">
+							<IconTemplate Id="aae3e73a6569459bb88f8ee4486d1093" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+							<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="4a270c402a9c4ce0bb0ef9fd6e4542dc" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+						<PaletteContentCategory Display="font style" Id="bead0bf49b9f430f863f21575c2f3f24" ShortName="font style" UniqueId="f2eea4b2-c9fc-46e5-acb3-d9f6514ebe94">
+							<PaletteContentLeaf ClipboardDataFormat="Constant" Display="font style Constant" Id="f00a571eb2cd4eea9737c308c3d14f51" MethodTarget="ECharts::Shared Options::font style.gtype" UniqueId="ECharts:Shared Options:font style.gtype.Constant">
+								<IconPanel Height="[float]40" Id="7ba0bb2f3644689a5a69ab64a5adbab" Left="[float]0" Top="[float]0" Width="[float]40">
+									<IconTemplate Id="f45a8bf57fde4e25920fdf3ee20793d4" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+									<Path Data="[PathGeometry]M 0,16 C 0,14 2,12 4,12 L 30.5470009,12 L 39.5470009,16.5 L 31,20.7399998 C 31,20.7399998 31,21.0109997 31,23 C 31,24.9899998 29.0470009,27 27.0470009,27 C 18.3799992,27 6,27 4,27 C 2,27 0,25 0,23 L 0,16 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="4b02e35c668d416b8edd45ceec37d843" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 3.95300007,13.0159998 C 5.03100014,13.0159998 25.8120003,13.0159998 30.25,13.0159998 L 37.2970009,16.5 L 30,20 L 30,23.0160007 C 30,24.5160007 28.5470009,26 27.0470009,26 C 18.3799992,26 5.5,26 4,26 C 2.5,26 1,24.5 1,23 L 1,16 C 1,14.5 2.45300007,13.0159998 3.95300007,13.0159998 Z" Fill="[SMSolidColorBrush]#fff2f2f2" Height="[float]40" Id="47d5bd58ed594ddaae5f06ec19f2d2a5" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 4,14 L 6,14 C 6,14 5.95300007,25 6,25 L 4,25 C 3,25 2,24 2,23 L 2,16 C 2,15 3,14 4,14 Z M 31.5470009,16.5 L 30.0470009,19 L 35.0470009,16.5 L 30.0470009,14 L 31.5470009,16.5 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="e89c299f2a0c42af8a4f33ed64d2a3f3" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 30.3120003,16.5 L 29,18.75 L 29,23 C 29,24 28,25 27,25 L 7,25 L 7,14 L 28.9370003,14 L 30.3120003,16.5 Z" Fill="[SMSolidColorBrush]#ffe5e5e5" Height="[float]40" Id="f99efc88825048c587ab8a82e9b0548a" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								</IconPanel>
+							</PaletteContentLeaf>
+							<PaletteContentLeaf ClipboardDataFormat="Terminal" Display="font style Terminal" Id="bedb9e2cb5e84ff9a91ba45aca5aed21" MethodTarget="ECharts::Shared Options::font style.gtype" UniqueId="ECharts:Shared Options:font style.gtype.Terminal">
+								<IconPanel Height="[float]40" Id="72724dc6867743b9a869b3125aef5a4c" Left="[float]0" Top="[float]0" Width="[float]40">
+									<IconTemplate Id="2d665a57df50484e84dea0ec922410b2" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+									<Path Data="[PathGeometry]M 0,16 C 0,14 2,12 4,12 L 30.5,12 L 39.5,16.5 L 31,20.75 C 31,20.75 31,21.0209999 31,23.0100002 C 31,25 29,27 27,27 C 18.3330002,27 6,27 4,27 C 2,27 0,25 0,23 L 0,16 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="53413cde7e7c4650bad3aeee1d3812a5" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 4,13 C 5.07800007,13 25.8120003,13 30.25,13 L 37.2970009,16.4839993 L 30,20 L 30,23 C 30,24.5 28.5470009,25.9839993 27.0470009,25.9839993 C 18.3799992,25.9839993 5.54699993,25.9839993 4.04699993,25.9839993 C 2.54699993,25.9839993 1.04700005,24.4839993 1.04700005,22.9839993 L 1.04700005,15.9840002 C 1.04700005,14.4840002 2.5,13 4,13 Z" Fill="[SMSolidColorBrush]#fff2f2f2" Height="[float]40" Id="e76cd7aaf054db3afcecce64e5b15ec" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 4,14 L 18.0839996,14 L 28.9370003,14 L 30.3120003,16.5 L 29,18.75 L 29,23 C 29,24 28,25 27,25 L 4,25 C 3,25 2,24 2,23 L 2,16 C 2,15 3,14 4,14 Z M 30,14 L 35,16.5 L 30,19 L 31.5,16.5 L 30,14 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="cbaa3fb305b146518b80b62a484ba338" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								</IconPanel>
+							</PaletteContentLeaf>
+							<IconPanel Height="[float]40" Id="d5ee0e48596b40888f06566c8969ac78" Left="[float]0" Top="[float]0" Width="[float]40">
+								<IconTemplate Id="29ef7eb9a59942908c2db872b4c17944" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+								<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="94f4201212784534a45a5d497b09284a" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+							</IconPanel>
+						</PaletteContentCategory>
+						<PaletteContentCategory Display="font weight" Id="e86e948074d545ecb8613f7ccc8f7aa3" ShortName="font weight" UniqueId="3023baed-1dd3-4205-86e9-50df474542c8">
+							<PaletteContentLeaf ClipboardDataFormat="Constant" Display="font weight Constant" Id="f1f786d39ef242cfbedc35e3c4e949a9" MethodTarget="ECharts::Shared Options::font weight.gtype" UniqueId="ECharts:Shared Options:font weight.gtype.Constant">
+								<IconPanel Height="[float]40" Id="e48c42a3c57d4305865fa2ff5bdeda26" Left="[float]0" Top="[float]0" Width="[float]40">
+									<IconTemplate Id="38ee160b7828448d84ebc3acf66fe11d" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+									<Path Data="[PathGeometry]M 0,16 C 0,14 2,12 4,12 L 30.5470009,12 L 39.5470009,16.5 L 31,20.7399998 C 31,20.7399998 31,21.0109997 31,23 C 31,24.9899998 29.0470009,27 27.0470009,27 C 18.3799992,27 6,27 4,27 C 2,27 0,25 0,23 L 0,16 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="e4267b56e5db400abf3ea09ed9b38369" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 3.95300007,13.0159998 C 5.03100014,13.0159998 25.8120003,13.0159998 30.25,13.0159998 L 37.2970009,16.5 L 30,20 L 30,23.0160007 C 30,24.5160007 28.5470009,26 27.0470009,26 C 18.3799992,26 5.5,26 4,26 C 2.5,26 1,24.5 1,23 L 1,16 C 1,14.5 2.45300007,13.0159998 3.95300007,13.0159998 Z" Fill="[SMSolidColorBrush]#fff2f2f2" Height="[float]40" Id="d2a5e1e5b5e04f8f86528695ffa3dea7" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 4,14 L 6,14 C 6,14 5.95300007,25 6,25 L 4,25 C 3,25 2,24 2,23 L 2,16 C 2,15 3,14 4,14 Z M 31.5470009,16.5 L 30.0470009,19 L 35.0470009,16.5 L 30.0470009,14 L 31.5470009,16.5 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="d4d9c0d3cc4745af984f246d8e9cf9e9" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 30.3120003,16.5 L 29,18.75 L 29,23 C 29,24 28,25 27,25 L 7,25 L 7,14 L 28.9370003,14 L 30.3120003,16.5 Z" Fill="[SMSolidColorBrush]#ffe5e5e5" Height="[float]40" Id="4f31fac51674c2a96262bcbebe68c15" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								</IconPanel>
+							</PaletteContentLeaf>
+							<PaletteContentLeaf ClipboardDataFormat="Terminal" Display="font weight Terminal" Id="6eccc107d82c4d1192647c479162694c" MethodTarget="ECharts::Shared Options::font weight.gtype" UniqueId="ECharts:Shared Options:font weight.gtype.Terminal">
+								<IconPanel Height="[float]40" Id="3e510cafe50d4908bb6207ea2f89db04" Left="[float]0" Top="[float]0" Width="[float]40">
+									<IconTemplate Id="9c1fb6eb8a0d4112bd0cba4c348c3d44" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+									<Path Data="[PathGeometry]M 0,16 C 0,14 2,12 4,12 L 30.5,12 L 39.5,16.5 L 31,20.75 C 31,20.75 31,21.0209999 31,23.0100002 C 31,25 29,27 27,27 C 18.3330002,27 6,27 4,27 C 2,27 0,25 0,23 L 0,16 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="9c4cebd158fd4f6b86bccdd0c0559673" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 4,13 C 5.07800007,13 25.8120003,13 30.25,13 L 37.2970009,16.4839993 L 30,20 L 30,23 C 30,24.5 28.5470009,25.9839993 27.0470009,25.9839993 C 18.3799992,25.9839993 5.54699993,25.9839993 4.04699993,25.9839993 C 2.54699993,25.9839993 1.04700005,24.4839993 1.04700005,22.9839993 L 1.04700005,15.9840002 C 1.04700005,14.4840002 2.5,13 4,13 Z" Fill="[SMSolidColorBrush]#fff2f2f2" Height="[float]40" Id="c3dd200e563c4e54bb4e3a9d178542cd" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 4,14 L 18.0839996,14 L 28.9370003,14 L 30.3120003,16.5 L 29,18.75 L 29,23 C 29,24 28,25 27,25 L 4,25 C 3,25 2,24 2,23 L 2,16 C 2,15 3,14 4,14 Z M 30,14 L 35,16.5 L 30,19 L 31.5,16.5 L 30,14 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="eb03a002f881401984a9db95a3dc28f0" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								</IconPanel>
+							</PaletteContentLeaf>
+							<IconPanel Height="[float]40" Id="d825282fa1154706943e195d125a7f1d" Left="[float]0" Top="[float]0" Width="[float]40">
+								<IconTemplate Id="a23a990a2ef84114ac3d1997e4e6782d" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+								<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="91be0f2e0ca44714b907ecf4338e6d45" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+							</IconPanel>
+						</PaletteContentCategory>
+						<PaletteContentLeaf Id="190ddda815e84c9aacb41217116fe1ad" MethodTarget="ECharts::Shared Options::Set Animation Options.gvi" />
+						<PaletteContentLeaf Id="fdb98097a94b4b979529abdd324d0779" MethodTarget="ECharts::Shared Options::Set Color Options.gvi" />
+						<PaletteContentLeaf Id="214e85dcbaa749bc8143e4934cc28279" MethodTarget="ECharts::Shared Options::Set Text Style Options.gvi" />
+					</PaletteContentCategory>
+					<PaletteContentCategory Display="Shared Options 3D" Id="23e745280b984fc1a03d553a1a9bcdd5" ShortName="Shared Options 3D" UniqueId="d42bc3c2-e76d-46e3-9567-3c59a2015ef3">
+						<IconPanel Height="[float]40" Id="292162c381c34f39bdc5fe56127bd77c" Left="[float]0" Top="[float]0" Width="[float]40">
+							<IconTemplate Id="31e182f61baf46ad91a4b468325e0723" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+							<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="36c2864b07a74649ba10f8ea82e2e5d2" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+						<PaletteContentCategory Display="axis 3d type" Id="75187f73dec14374886cd7db4ea3fe51" ShortName="axis 3d type" UniqueId="8411f7ce-f90c-4ac1-9ed7-5c8afe02bc7f">
+							<PaletteContentLeaf ClipboardDataFormat="Constant" Display="axis 3d type Constant" Id="7135e442d98c40c4a7d29f000fa14ea8" MethodTarget="ECharts::Shared Options 3D::axis 3d type.gtype" UniqueId="ECharts:Shared Options 3D:axis 3d type.gtype.Constant">
+								<IconPanel Height="[float]40" Id="c8c846ccce2d4e52bf46d666069c5fd2" Left="[float]0" Top="[float]0" Width="[float]40">
+									<IconTemplate Id="6f4a7ba2d6fc4be0ae8218d36845ac78" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+									<Path Data="[PathGeometry]M 0,16 C 0,14 2,12 4,12 L 30.5470009,12 L 39.5470009,16.5 L 31,20.7399998 C 31,20.7399998 31,21.0109997 31,23 C 31,24.9899998 29.0470009,27 27.0470009,27 C 18.3799992,27 6,27 4,27 C 2,27 0,25 0,23 L 0,16 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="c6c5ed884d634896bd97bdef5706aa1a" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 3.95300007,13.0159998 C 5.03100014,13.0159998 25.8120003,13.0159998 30.25,13.0159998 L 37.2970009,16.5 L 30,20 L 30,23.0160007 C 30,24.5160007 28.5470009,26 27.0470009,26 C 18.3799992,26 5.5,26 4,26 C 2.5,26 1,24.5 1,23 L 1,16 C 1,14.5 2.45300007,13.0159998 3.95300007,13.0159998 Z" Fill="[SMSolidColorBrush]#fff2f2f2" Height="[float]40" Id="c4358197f4604be58a144e74e22d64ed" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 4,14 L 6,14 C 6,14 5.95300007,25 6,25 L 4,25 C 3,25 2,24 2,23 L 2,16 C 2,15 3,14 4,14 Z M 31.5470009,16.5 L 30.0470009,19 L 35.0470009,16.5 L 30.0470009,14 L 31.5470009,16.5 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="a12b2492fe6745a892415418b7e612f3" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 30.3120003,16.5 L 29,18.75 L 29,23 C 29,24 28,25 27,25 L 7,25 L 7,14 L 28.9370003,14 L 30.3120003,16.5 Z" Fill="[SMSolidColorBrush]#ffe5e5e5" Height="[float]40" Id="f8047b8bcdce4267bb1338de46971809" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								</IconPanel>
+							</PaletteContentLeaf>
+							<PaletteContentLeaf ClipboardDataFormat="Terminal" Display="axis 3d type Terminal" Id="b595a40eed2142d0a62421024865196e" MethodTarget="ECharts::Shared Options 3D::axis 3d type.gtype" UniqueId="ECharts:Shared Options 3D:axis 3d type.gtype.Terminal">
+								<IconPanel Height="[float]40" Id="6c4e36ea91b4cf5b462e6dc751027dd" Left="[float]0" Top="[float]0" Width="[float]40">
+									<IconTemplate Id="5e376bc5a81e4b568865037a3e7723e8" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+									<Path Data="[PathGeometry]M 0,16 C 0,14 2,12 4,12 L 30.5,12 L 39.5,16.5 L 31,20.75 C 31,20.75 31,21.0209999 31,23.0100002 C 31,25 29,27 27,27 C 18.3330002,27 6,27 4,27 C 2,27 0,25 0,23 L 0,16 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="765c7cfb50bc4929816e4f44ee398d10" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 4,13 C 5.07800007,13 25.8120003,13 30.25,13 L 37.2970009,16.4839993 L 30,20 L 30,23 C 30,24.5 28.5470009,25.9839993 27.0470009,25.9839993 C 18.3799992,25.9839993 5.54699993,25.9839993 4.04699993,25.9839993 C 2.54699993,25.9839993 1.04700005,24.4839993 1.04700005,22.9839993 L 1.04700005,15.9840002 C 1.04700005,14.4840002 2.5,13 4,13 Z" Fill="[SMSolidColorBrush]#fff2f2f2" Height="[float]40" Id="2d9704ac869f4ec8be8ad7a863a22e78" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 4,14 L 18.0839996,14 L 28.9370003,14 L 30.3120003,16.5 L 29,18.75 L 29,23 C 29,24 28,25 27,25 L 4,25 C 3,25 2,24 2,23 L 2,16 C 2,15 3,14 4,14 Z M 30,14 L 35,16.5 L 30,19 L 31.5,16.5 L 30,14 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="d6df3726a69345cfbd8e44addb829af8" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								</IconPanel>
+							</PaletteContentLeaf>
+							<IconPanel Height="[float]40" Id="3dee1827be074bce986abc5f924364b3" Left="[float]0" Top="[float]0" Width="[float]40">
+								<IconTemplate Id="8ffa81ada0348b4a2e9fe840b6f0b9a" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+								<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="4be8d5a546fc4ac6a5f073027742f296" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+							</IconPanel>
+						</PaletteContentCategory>
+						<PaletteContentCategory Display="axis 3d" Id="c1ac6e2a55b140aa8b21d6c6669e41c2" ShortName="axis 3d" UniqueId="30ffa9d7-36cd-4a88-9abf-dd3eaffa96d3">
+							<PaletteContentLeaf ClipboardDataFormat="Constant" Display="axis 3d Constant" Id="dc1d0884335c49c2bdb328262ad26e87" MethodTarget="ECharts::Shared Options 3D::axis 3d.gtype" UniqueId="ECharts:Shared Options 3D:axis 3d.gtype.Constant">
+								<IconPanel Height="[float]40" Id="b4bca33b78f54fb3ad717c8fa29f38a6" Left="[float]0" Top="[float]0" Width="[float]40">
+									<IconTemplate Id="96961311fd534bf3a83630624d9553ca" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+									<Path Data="[PathGeometry]M 0,16 C 0,14 2,12 4,12 L 30.5470009,12 L 39.5470009,16.5 L 31,20.7399998 C 31,20.7399998 31,21.0109997 31,23 C 31,24.9899998 29.0470009,27 27.0470009,27 C 18.3799992,27 6,27 4,27 C 2,27 0,25 0,23 L 0,16 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="512df3811f1443fbbea61bb6a320d432" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 3.95300007,13.0159998 C 5.03100014,13.0159998 25.8120003,13.0159998 30.25,13.0159998 L 37.2970009,16.5 L 30,20 L 30,23.0160007 C 30,24.5160007 28.5470009,26 27.0470009,26 C 18.3799992,26 5.5,26 4,26 C 2.5,26 1,24.5 1,23 L 1,16 C 1,14.5 2.45300007,13.0159998 3.95300007,13.0159998 Z" Fill="[SMSolidColorBrush]#fff2f2f2" Height="[float]40" Id="5f4b1236dbe34bab8d92fcfe87aae1c3" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 4,14 L 6,14 C 6,14 5.95300007,25 6,25 L 4,25 C 3,25 2,24 2,23 L 2,16 C 2,15 3,14 4,14 Z M 31.5470009,16.5 L 30.0470009,19 L 35.0470009,16.5 L 30.0470009,14 L 31.5470009,16.5 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="1c5a793f5c684d1b8a57b1e26c86458e" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 30.3120003,16.5 L 29,18.75 L 29,23 C 29,24 28,25 27,25 L 7,25 L 7,14 L 28.9370003,14 L 30.3120003,16.5 Z" Fill="[SMSolidColorBrush]#ffe5e5e5" Height="[float]40" Id="d7f78f988bde45beb88167aabeac7654" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								</IconPanel>
+							</PaletteContentLeaf>
+							<PaletteContentLeaf ClipboardDataFormat="Terminal" Display="axis 3d Terminal" Id="ea3cec17724e4205a514bf977b198cf8" MethodTarget="ECharts::Shared Options 3D::axis 3d.gtype" UniqueId="ECharts:Shared Options 3D:axis 3d.gtype.Terminal">
+								<IconPanel Height="[float]40" Id="9cca70740b204923a66022484db870fe" Left="[float]0" Top="[float]0" Width="[float]40">
+									<IconTemplate Id="22d6ddfbb5dd471fa8100169de985ddf" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+									<Path Data="[PathGeometry]M 0,16 C 0,14 2,12 4,12 L 30.5,12 L 39.5,16.5 L 31,20.75 C 31,20.75 31,21.0209999 31,23.0100002 C 31,25 29,27 27,27 C 18.3330002,27 6,27 4,27 C 2,27 0,25 0,23 L 0,16 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="6d05fb88961a4a7fbfa6b45cb043ef12" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 4,13 C 5.07800007,13 25.8120003,13 30.25,13 L 37.2970009,16.4839993 L 30,20 L 30,23 C 30,24.5 28.5470009,25.9839993 27.0470009,25.9839993 C 18.3799992,25.9839993 5.54699993,25.9839993 4.04699993,25.9839993 C 2.54699993,25.9839993 1.04700005,24.4839993 1.04700005,22.9839993 L 1.04700005,15.9840002 C 1.04700005,14.4840002 2.5,13 4,13 Z" Fill="[SMSolidColorBrush]#fff2f2f2" Height="[float]40" Id="b0765e3e82d84046a1af0b38a517667f" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 4,14 L 18.0839996,14 L 28.9370003,14 L 30.3120003,16.5 L 29,18.75 L 29,23 C 29,24 28,25 27,25 L 4,25 C 3,25 2,24 2,23 L 2,16 C 2,15 3,14 4,14 Z M 30,14 L 35,16.5 L 30,19 L 31.5,16.5 L 30,14 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="4008bd09ab6a492ba318737ddcf04e71" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								</IconPanel>
+							</PaletteContentLeaf>
+							<IconPanel Height="[float]40" Id="95c52c5d46394025b2bd4773e9cf6ca5" Left="[float]0" Top="[float]0" Width="[float]40">
+								<IconTemplate Id="772d1b9dc7a94a5eb2c0e74640ac2498" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+								<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="8748a30c0e2448158a1122308d42babd" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+							</IconPanel>
+						</PaletteContentCategory>
+						<PaletteContentCategory Display="projection" Id="973af6e4f5e94e09afaa7e1f31d9b788" ShortName="projection" UniqueId="eee41e2d-f004-46e4-bdbd-528f43919f4a">
+							<PaletteContentLeaf ClipboardDataFormat="Constant" Display="projection Constant" Id="25f7f8cf7fc9437ba537a82d86ebaa3e" MethodTarget="ECharts::Shared Options 3D::projection.gtype" UniqueId="ECharts:Shared Options 3D:projection.gtype.Constant">
+								<IconPanel Height="[float]40" Id="291fe0cf88e6404c82b18a8249e0b84c" Left="[float]0" Top="[float]0" Width="[float]40">
+									<IconTemplate Id="916f542d91b641359d34d1bc4fc76920" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+									<Path Data="[PathGeometry]M 0,16 C 0,14 2,12 4,12 L 30.5470009,12 L 39.5470009,16.5 L 31,20.7399998 C 31,20.7399998 31,21.0109997 31,23 C 31,24.9899998 29.0470009,27 27.0470009,27 C 18.3799992,27 6,27 4,27 C 2,27 0,25 0,23 L 0,16 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="684c1581faf34979913b6d38764fcffc" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 3.95300007,13.0159998 C 5.03100014,13.0159998 25.8120003,13.0159998 30.25,13.0159998 L 37.2970009,16.5 L 30,20 L 30,23.0160007 C 30,24.5160007 28.5470009,26 27.0470009,26 C 18.3799992,26 5.5,26 4,26 C 2.5,26 1,24.5 1,23 L 1,16 C 1,14.5 2.45300007,13.0159998 3.95300007,13.0159998 Z" Fill="[SMSolidColorBrush]#fff2f2f2" Height="[float]40" Id="5fef03d8fb4941b8b9d8635ed0c80274" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 4,14 L 6,14 C 6,14 5.95300007,25 6,25 L 4,25 C 3,25 2,24 2,23 L 2,16 C 2,15 3,14 4,14 Z M 31.5470009,16.5 L 30.0470009,19 L 35.0470009,16.5 L 30.0470009,14 L 31.5470009,16.5 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="fcd24c0d4f2f45078eede7d5f504eb44" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 30.3120003,16.5 L 29,18.75 L 29,23 C 29,24 28,25 27,25 L 7,25 L 7,14 L 28.9370003,14 L 30.3120003,16.5 Z" Fill="[SMSolidColorBrush]#ffe5e5e5" Height="[float]40" Id="9a2548f1b9a545fabf22ae14bf6f9ddb" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								</IconPanel>
+							</PaletteContentLeaf>
+							<PaletteContentLeaf ClipboardDataFormat="Terminal" Display="projection Terminal" Id="5952077e0478433a8e9b8878f6541c52" MethodTarget="ECharts::Shared Options 3D::projection.gtype" UniqueId="ECharts:Shared Options 3D:projection.gtype.Terminal">
+								<IconPanel Height="[float]40" Id="82424275798640c19393d3c5c4bece73" Left="[float]0" Top="[float]0" Width="[float]40">
+									<IconTemplate Id="d3813cf5418845988d63d3298b7c551c" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+									<Path Data="[PathGeometry]M 0,16 C 0,14 2,12 4,12 L 30.5,12 L 39.5,16.5 L 31,20.75 C 31,20.75 31,21.0209999 31,23.0100002 C 31,25 29,27 27,27 C 18.3330002,27 6,27 4,27 C 2,27 0,25 0,23 L 0,16 Z" Fill="[SMSolidColorBrush]#ff727272" Height="[float]40" Id="c8b1c2089e8d4933a47a68e175858ebd" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 4,13 C 5.07800007,13 25.8120003,13 30.25,13 L 37.2970009,16.4839993 L 30,20 L 30,23 C 30,24.5 28.5470009,25.9839993 27.0470009,25.9839993 C 18.3799992,25.9839993 5.54699993,25.9839993 4.04699993,25.9839993 C 2.54699993,25.9839993 1.04700005,24.4839993 1.04700005,22.9839993 L 1.04700005,15.9840002 C 1.04700005,14.4840002 2.5,13 4,13 Z" Fill="[SMSolidColorBrush]#fff2f2f2" Height="[float]40" Id="4729c12285d24720b0f63fd9be5b7199" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+									<Path Data="[PathGeometry]M 4,14 L 18.0839996,14 L 28.9370003,14 L 30.3120003,16.5 L 29,18.75 L 29,23 C 29,24 28,25 27,25 L 4,25 C 3,25 2,24 2,23 L 2,16 C 2,15 3,14 4,14 Z M 30,14 L 35,16.5 L 30,19 L 31.5,16.5 L 30,14 Z" Fill="[SMSolidColorBrush]#b2000000" Height="[float]40" Id="34aea5d0ac4344dc911123ab4588b219" IsHitTestVisible="[bool]False" Left="[float]0" Top="[float]0" Width="[float]40" />
+								</IconPanel>
+							</PaletteContentLeaf>
+							<IconPanel Height="[float]40" Id="d79243a84a6747cdbaea2c75b376cc40" Left="[float]0" Top="[float]0" Width="[float]40">
+								<IconTemplate Id="87d52fffff724cff9263911c02364a8e" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+								<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="e1f920ef99d041edad6f1f35664492a9" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+							</IconPanel>
+						</PaletteContentCategory>
+						<PaletteContentLeaf Id="6d44f59443714f45ad69281bb67a835c" MethodTarget="ECharts::Shared Options 3D::Set Axis 3D.gvi" />
+						<PaletteContentLeaf Id="37a2ccddfb3f44a584ce7baa1104b0d1" MethodTarget="ECharts::Shared Options 3D::Set Grid 3D.gvi" />
+					</PaletteContentCategory>
+					<PaletteContentCategory Display="Surface Options" Id="106cb94fe8514905ba6afaa2d2179073" ShortName="Surface Options" UniqueId="adf1d084-44c1-4378-b806-ef63c8e67f54">
+						<IconPanel Height="[float]40" Id="9e466972bea84aa9a48791a2f611848b" Left="[float]0" Top="[float]0" Width="[float]40">
+							<IconTemplate Id="936343efc02c4aa0b3be95cb5a504ff9" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" />
+							<Path Data="[PathGeometry]M 18,0 L 19,2 H 38 V 3 H 2 V 2 L 4,2 L 5,0 H 18 Z M 40,7 V 40 H 0 V 4 H 40 V 7 Z" EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff8d9194" Height="[float]40" Id="55f16cdb47ae4520b523e38fa340c935" IsHitTestVisible="[bool]False" Left="[float]0" MinHeight="[float]1" MinWidth="[float]1" Stroke="[SMSolidColorBrush]#00ffffff" StrokeThickness="[float]1" Top="[float]0" Width="[float]40" />
+						</IconPanel>
+						<PaletteContentLeaf Id="7608ecb809c44d6bc6c1b1c13eb0302" MethodTarget="ECharts::Surface Options::Append Surface Series Options.gvi" />
+					</PaletteContentCategory>
+				</PaletteContentCategory>
+				<PaletteContentLeaf Id="ea75a66fc0d64d279b7d297404091516" MethodTarget="ECharts::Core::Create EChart.gvi" />
+				<PaletteContentLeaf Id="8cddd834d5db47cb9a4feff2f40cfcb2" MethodTarget="ECharts::Core::Destroy EChart.gvi" />
+				<PaletteContentLeaf Id="9bd051db7194488db17b40be22ca64e4" MethodTarget="ECharts::Core::Update EChart Options.gvi" />
+			</PaletteContentCategory>
+		</PaletteContentCategory>
+	</PaletteDefinition>
+</SourceFile>

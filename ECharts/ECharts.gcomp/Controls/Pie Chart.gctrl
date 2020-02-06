@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="972BD46F465085754BAEC15B49A69AA489BA307095E7352AA1DFC1D06FB51BDCE1CE58BFDE02664D1972F1CEBA57B417B98DC596E480C0B182BAB662C9F5AE09" Timestamp="1D5DD3E1449FE26" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.2316" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.0" Version="8.1.0.0" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.2316" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.2316" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.4" Version="8.1.0.4" />
+		<ApplicationVersionInfo Build="8.1.0.2316" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<ControlDefinition HtmlPanel="True" xmlns="http://www.ni.com/PanelCommon">
+		<HtmlContainer BaseName="[string]HTML Container" Height="[float]150" Id="d421b39e79974c84b460891c7978bb72" ImageSource="[string]http://www.eyesonvis.com/Images/pie-placeholder.png" ImageStretch="[SMStretch]None" Label="[UIModel]b124218e9df942bcbe4a009d5782d52b" Left="[float]50" Top="[float]62" Width="[float]150" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+		<Label Height="[float]16" Id="b124218e9df942bcbe4a009d5782d52b" LabelOwner="[UIModel]d421b39e79974c84b460891c7978bb72" Left="[float]50" Text="[string]Pie Chart Placeholder" Top="[float]42" Width="[float]113" />
+	</ControlDefinition>
+</SourceFile>

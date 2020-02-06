@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="57BA382E3ACAEECA261F6319643D23B49FA826FAD26C87C60CCE21DDF855DC8DD3E764FBA1DB286C8A9935F0819F416EE10D0B6D8C3EF14C55F44C21779F4711" Timestamp="1D5DD3F67289887" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.2316" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.0" Version="8.1.0.0" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.2316" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.4" Version="8.1.0.4" />
+		<ApplicationVersionInfo Build="8.1.0.2316" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition Company="National Instruments" Product="ECharts Add-on for LabVIEW NXG" ShortDescription="National Instruments ECharts" TargetedProduct="LabVIEW" Version="1.0.0.1" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionDependencyContent DisplayName="ni-certificates" Id="a7c5d60f2ffa41a08976afe0454a060e" Included="False" Name="ni-certificates" RequirementType="Recommended" VersionRequirement="None" />
+		<DistributionOutput CachedDisplayName="Package Installer" Id="185d43f34588485f8a3f06e82403d1bf" p3:CustomNipmPackageName="nationalinstruments-echarts" p3:DistributionCategory="Addon" p3:MaintainerEmail="christina.rogers@ni.com" p3:MaintainerName="National Instruments" p3:PackageDisplayName="ECharts" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="e952643d3baa4348baaa6c7d5e5750f5" Target="::DevSystem" />
+		<DistributionMemberDependencySource Id="936cccbf6f724df98bd6568a78ac93cc" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Source" Target="::DevSystem::Interactive::ECharts.gcomp" />
+		<DistributionDependencyContent DisplayName="LabVIEW NXG" Id="b9ff298da52d48a8bbb73d432269fb1b" Included="False" MaintainerName="National Instruments" Name="ni-labview-nxg-5.0.0" Version="8.1.0.32824-0+b56" />
+		<DistributionDependencyContent DisplayName="LabVIEW NXG G Standard Library Files" Id="d9c999536c984e21a96d24ec140d3648" Included="False" MaintainerName="National Instruments" Name="ni-labview-nxg-5.0.0-g-stdlib-bin" Version="8.1.0.32824-0+b56" />
+	</DistributionDefinition>
+</SourceFile>

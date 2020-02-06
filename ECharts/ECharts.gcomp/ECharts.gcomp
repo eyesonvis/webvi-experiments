@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="8BF706693F9C91A9BF157BA5E05E6B613FF2F9C673FB48033B3A6B1D6A5AD4412B3721A4C8821026FF294403D4E7DD9D38DEFC0345FF587F771DBF39A2EC6709" Timestamp="1D57867D4C3683C" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="7CA85DD1F674989020F32DEB97FB8A545DEC8F4899FCB5D063DB3A445FA262D7CA646F105BF093DFEC91D6471469B5DEAD63A2DE8B30E3AA4998075101CD8997" Timestamp="1D5DD3EC9787F12" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.49152" Version="6.4.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
-		<ApplicationVersionInfo Build="6.4.1.50844" Name="LabVIEW NXG" Version="3.1.0" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.2316" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.0" Version="8.1.0.0" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.2316" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.49152" Version="6.4.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.2316" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.2316" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.4" Version="8.1.0.4" />
+		<ApplicationVersionInfo Build="8.1.0.2316" Name="LabVIEW NXG" Version="5.0.0" />
 	</SourceModelFeatureSet>
-	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="9ce63e29b9f14eab86ab97df26b6e0e4" RootNamespaceId="c48f16a6725444cf80cb2df169ae1b1e" xmlns="http://www.ni.com/GComponent.xsd">
+	<ComponentDefinition AutoIncrementOnBuild="True" DefaultConfigurationName="Configuration1" Id="9ce63e29b9f14eab86ab97df26b6e0e4" RootNamespaceId="c48f16a6725444cf80cb2df169ae1b1e" UserVersion="1.0.0.0" xmlns="http://www.ni.com/GComponent.xsd">
 		<Icon Id="6b993a7cabc64b288e4a9a12e4373ccb" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
 			<IconPanel Height="[float]40" Id="d3a792b93a1f474a8fe6d6f5fe4bcccd" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
 				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Stretch" Id="7a9d6d7fd13840b49fea33b2c39134ec" Left="[float]0" TemplateName="[string]Banner" Top="[float]0" VerticalAlignment="[VerticalAlignment]Stretch" Width="[float]40">
@@ -20,7 +21,7 @@
 			</IconPanel>
 		</Icon>
 		<CompilerSymbolTable Id="4b9428a101eb4233a8fdc7224993f014" xmlns="http://www.ni.com/PlatformFramework" />
-		<ComponentConfiguration Id="b0afac0271a44c38bf47edc8f28f5e31" Name="Configuration1">
+		<ComponentConfiguration AssociatedPalettes="32ed9c51386e48fda02945335f747a9b,f9a75670291d4107bd40f2138569c24e" Id="b0afac0271a44c38bf47edc8f28f5e31" Name="Configuration1">
 			<CompilerSymbolTable Id="9379773bea85455c9075fe3b99b75a91" xmlns="http://www.ni.com/PlatformFramework" />
 			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="e737821ac13c4cbebfcba7cb9d14fe6a" Id="1b85eaa48f24375a781be1831f67965" />
 			<ComponentItemProperties AssociatedEnvoyId="d2fe879d18864a548c0a3aff7c34c78b" Exported="True" Id="ac7b1b79bc8943a7ad57da145d5d8cf9" />
@@ -46,71 +47,37 @@
 			<ComponentItemProperties AssociatedEnvoyId="2d661a9c571446990e34fcaaab434dd" Exported="True" Id="1fca51e700147aca952902f9ad4b049" />
 			<ComponentItemProperties AssociatedEnvoyId="54979a2f8e1a44e2bec57c012f958e81" Exported="True" Id="31942a1381054f10970c231e7d6973ca" />
 			<ComponentItemProperties AssociatedEnvoyId="ef79ff995934c4c9846a2d8d5e24c2f" Exported="True" Id="92d0195f1975400c91ebcb1cb098ed38" />
+			<GLibraryProperties Id="9bfa50e821574f9c900162752e5bee2d" />
+			<ComponentItemProperties AssociatedEnvoyId="2f4777c3db564aeca781568f989d1973" Exported="True" Id="85abc0bdad41400f851eb642f6074219" />
 		</ComponentConfiguration>
 	</ComponentDefinition>
 	<EnvoyManagerFile Id="b737097e69341f1a4bb25195c568706" xmlns="http://www.ni.com/PlatformFramework">
-		<ProjectSettings Id="7ceabf05bb4949f48763e39310c9395c" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<EnvoyManagerRootEnvoy Id="7ceabf05bb4949f48763e39310c9395c" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
 		<EmbeddedDefinitionReference Id="90823091c35c4eecb4d85f1698ee2207" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
 			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
 			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="c48f16a6725444cf80cb2df169ae1b1e" Name="ECharts">
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="d934e63875de4f618447c14894ce5918" Name="Support">
-					<EmbeddedDefinitionReference Id="a8fc675441d64e0ca18505acab5ea415" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name=".gitignore">
-						<ExternalFile>
-							<p.StoragePath>"Support\\.gitignore"</p.StoragePath>
-						</ExternalFile>
-					</EmbeddedDefinitionReference>
-					<EmbeddedDefinitionReference Id="ad24f5e02aac4b5894589993d2005b80" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="package.json">
-						<ExternalFile>
-							<p.StoragePath>"Support\\package.json"</p.StoragePath>
-						</ExternalFile>
-					</EmbeddedDefinitionReference>
-					<EmbeddedDefinitionReference Id="4d99058153d540a19422683b08d40369" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="package-lock.json">
-						<ExternalFile>
-							<p.StoragePath>"Support\\package-lock.json"</p.StoragePath>
-						</ExternalFile>
-					</EmbeddedDefinitionReference>
-					<EmbeddedDefinitionReference Id="e737821ac13c4cbebfcba7cb9d14fe6a" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="ECharts.js">
-						<ExternalFile>
-							<p.StoragePath>"Support\\ECharts.js"</p.StoragePath>
-						</ExternalFile>
-					</EmbeddedDefinitionReference>
+					<FileReference Bindings=".gitignore" Id="a8fc675441d64e0ca18505acab5ea415" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name=".gitignore" StoragePath="Support\.gitignore" />
+					<FileReference Bindings=".json" Id="ad24f5e02aac4b5894589993d2005b80" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="package.json" StoragePath="Support\package.json" />
+					<FileReference Bindings=".json" Id="4d99058153d540a19422683b08d40369" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="package-lock.json" StoragePath="Support\package-lock.json" />
+					<FileReference Bindings=".js" Id="e737821ac13c4cbebfcba7cb9d14fe6a" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="ECharts.js" StoragePath="Support\ECharts.js" />
 					<SourceFileReference Bindings="EnvoyManager" Id="d4681f5d766b44bead5fe4ecef70ae9a" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibrary" Name="ECharts.jsli" StoragePath="Support\ECharts.jsli" />
 					<SourceFileReference Bindings="EnvoyManager" Id="8f59d37ebde43139c6d230a04440e1d" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="option.gtype" StoragePath="Support\option.gtype\option.gtype" />
 					<NameScopingEnvoy AutomaticallyResolveUp="True" Id="4a56c4cf4a614c4dbd5a69a9ef982695" Name="node_modules">
 						<NameScopingEnvoy AutomaticallyResolveUp="True" Id="a6acf733f1ae4edf899352fa52282cc2" Name="echarts">
 							<NameScopingEnvoy AutomaticallyResolveUp="True" Id="e0dd3093aa25457c9835b26acc3a0641" Name="dist">
-								<EmbeddedDefinitionReference Id="37ba4f47f729404381077c558b94f13e" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="echarts.min.js">
-									<ExternalFile>
-										<p.StoragePath>"Support\\node_modules\\echarts\\dist\\echarts.min.js"</p.StoragePath>
-									</ExternalFile>
-								</EmbeddedDefinitionReference>
+								<FileReference Bindings=".js" Id="37ba4f47f729404381077c558b94f13e" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="echarts.min.js" StoragePath="Support\node_modules\echarts\dist\echarts.min.js" />
 							</NameScopingEnvoy>
 							<NameScopingEnvoy AutomaticallyResolveUp="True" Id="34c1410b25b04532a1fff76c1a86b94f" Name="licenses">
-								<EmbeddedDefinitionReference Id="3de9f6ab1dd34ee9ab2cc34332682f64" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="LICENSE-d3">
-									<ExternalFile>
-										<p.StoragePath>"Support\\node_modules\\echarts\\licenses\\LICENSE-d3"</p.StoragePath>
-									</ExternalFile>
-								</EmbeddedDefinitionReference>
+								<FileReference Bindings="" Id="3de9f6ab1dd34ee9ab2cc34332682f64" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="LICENSE-d3" StoragePath="Support\node_modules\echarts\licenses\LICENSE-d3" />
 							</NameScopingEnvoy>
-							<EmbeddedDefinitionReference Id="33c417f802b14e889cadc30b8eb1e450" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="LICENSE">
-								<ExternalFile>
-									<p.StoragePath>"Support\\node_modules\\echarts\\LICENSE"</p.StoragePath>
-								</ExternalFile>
-							</EmbeddedDefinitionReference>
+							<FileReference Bindings="" Id="33c417f802b14e889cadc30b8eb1e450" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="LICENSE" StoragePath="Support\node_modules\echarts\LICENSE" />
 						</NameScopingEnvoy>
 						<NameScopingEnvoy AutomaticallyResolveUp="True" Id="2d46b5143dcf48e1ab174c1f906cfeff" Name="echarts-gl">
 							<NameScopingEnvoy AutomaticallyResolveUp="True" Id="573aa632473b4090a04114be0333e8f3" Name="dist">
-								<EmbeddedDefinitionReference Id="b5ae2da0736f4d02a9a49875a18d07af" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="echarts-gl.min.js">
-									<ExternalFile>
-										<p.StoragePath>"Support\\node_modules\\echarts-gl\\dist\\echarts-gl.min.js"</p.StoragePath>
-									</ExternalFile>
-								</EmbeddedDefinitionReference>
+								<FileReference Bindings=".js" Id="b5ae2da0736f4d02a9a49875a18d07af" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="echarts-gl.min.js" StoragePath="Support\node_modules\echarts-gl\dist\echarts-gl.min.js" />
 							</NameScopingEnvoy>
-							<EmbeddedDefinitionReference Id="ee3096223d8d498e8603a7e478e23738" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="LICENSE">
-								<ExternalFile>
-									<p.StoragePath>"Support\\node_modules\\echarts-gl\\LICENSE"</p.StoragePath>
-								</ExternalFile>
-							</EmbeddedDefinitionReference>
+							<FileReference Bindings="" Id="ee3096223d8d498e8603a7e478e23738" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="LICENSE" StoragePath="Support\node_modules\echarts-gl\LICENSE" />
 						</NameScopingEnvoy>
 					</NameScopingEnvoy>
 					<SourceFileReference Id="d24a88d1b0a74de18836fb14bdba801f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Append Option.gvi" StoragePath="Support\Append Option.gvi" />
@@ -147,6 +114,11 @@
 				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="b488fce55a2a4868809cedf24175824b" Name="Gauge Options">
 					<SourceFileReference Id="ef79ff995934c4c9846a2d8d5e24c2f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Append Gauge Series Options.gvi" StoragePath="Gauge Options\Append Gauge Series Options.gvi" />
 				</NameScopingEnvoy>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="ff96c1e8ec204bf1a18bbd5250cd7fab" Name="Controls">
+					<SourceFileReference Id="2f4777c3db564aeca781568f989d1973" ModelDefinitionType="{http://www.ni.com/PanelCommon}ControlDefinition" Name="Pie Chart.gctrl" StoragePath="Controls\Pie Chart.gctrl" />
+				</NameScopingEnvoy>
+				<SourceFileReference Bindings="VireoBrowserTarget" Id="32ed9c51386e48fda02945335f747a9b" ModelDefinitionType="NationalInstruments.SourceModel.PaletteDefinition" Name="ECharts.gpal" OverridingModelDefinitionType="NationalInstruments.SourceModel.PaletteDocument" StoragePath="ECharts.gpal" />
+				<SourceFileReference Id="f9a75670291d4107bd40f2138569c24e" ModelDefinitionType="NationalInstruments.SourceModel.PaletteDefinition" Name="ECharts_panel.gpal" OverridingModelDefinitionType="NationalInstruments.SourceModel.PaletteDocument" StoragePath="ECharts_panel.gpal" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="babf651213514307b0aa2f73aceda857" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionContentReferenceRoot" Name="ECharts.gcomp" NameTracksFileName="True">
